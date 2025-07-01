@@ -1,4 +1,6 @@
-
 Before use, download all files and folders in this folder. 
-The "models" folder and the ".exe" program need to be in the same directory. 
+The "models" folder and the ".py" program need to be in the same directory. 
 Make sure that the files in ".pkl" format under the "models" folder are not lost.
+
+Use the following code to convert a .py file into an .exe program for Windows system in the command line window of PyCharm.
+pyinstaller --clean --onefile --windowed --upx-dir="D:\Program Files\upx-5.0.1-win64" Garnet-REE-Prediction-Tool.py
