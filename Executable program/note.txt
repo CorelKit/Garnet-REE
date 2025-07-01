@@ -1,1 +1,4 @@
 
+Before use, download all files and folders in this folder. 
+The "models" folder and the ".exe" program need to be in the same directory. 
+Make sure that the files in ".pkl" format under the "models" folder are not lost.
