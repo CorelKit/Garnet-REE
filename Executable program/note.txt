@@ -4,3 +4,5 @@ Make sure that the files in ".bin" format under the "models" folder are not lost
 
 Use the following code to convert a .py file into an .exe program for Windows system in the command line window of PyCharm.
 pyinstaller --onefile --windowed --add-binary "D:\env3.11\Lib\site-packages\xgboost\lib\xgboost.dll;xgboost/lib" --add-data "D:\env3.11\Lib\site-packages\xgboost\VERSION;xgboost" --add-binary "C:\Windows\System32\vcomp140.dll;." --add-binary "C:\Windows\System32\msvcp140.dll;." "Skarn Mineralization Prediction Tool Based on Garnet REEs.py"  
+
+Download "Skarn Mineralization Prediction Tool Based on Garnet REEs.exe":  https://drive.google.com/drive/folders/1WdUdrWnfgf_16zj1QRrMCImQPyvLfX2X?usp=drive_link
